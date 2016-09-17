@@ -1,3 +1,3 @@
 #!/bin/bash
 
-build -t ramielrowe/www-apmelton-com .
+docker build -t ramielrowe/www-apmelton-com .
