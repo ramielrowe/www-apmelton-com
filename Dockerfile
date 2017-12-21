@@ -1,6 +1,6 @@
 FROM nginx
 
-RUN apt-get update &&  apt-get install python python-dev python-pip git -y
+RUN apt-get update &&  apt-get install python python-dev python-pip git libffi-dev libssl-dev -y
 
 WORKDIR /www-apmelton-com
 ADD requirements.txt /www-apmelton-com/requirements.txt
